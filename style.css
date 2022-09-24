@@ -1,0 +1,58 @@
+.country_img {
+  width: 200px;
+  padding: 10px 16px;
+  object-fit: contain;
+}
+
+.country_container {
+  max-width: 250px;
+  background-color: skyblue;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.993);
+  padding: 0px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  min-height: 400px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: 0.4s;
+}
+
+.country_container:hover {
+  background-color: burlywood;
+  transform: scale(0.9);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: hsl(35deg 35% 23%);
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+.country_name {
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+}
+
+span {
+  font-weight: bold;
+}
+
+body {
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.country_button {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  color: rgb(245, 245, 245);
+  background-color: hsl(240deg 100% 50% / 52%);
+  border: none;
+}
